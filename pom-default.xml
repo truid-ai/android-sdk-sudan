@@ -237,5 +237,35 @@
       <version>4.12.0</version>
       <scope>runtime</scope>
     </dependency>
+    <dependency>
+      <groupId>androidx.compose.material3</groupId>
+      <artifactId>material3</artifactId>
+      <version>1.4.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>TruId</groupId>
+      <artifactId>imageprocessing</artifactId>
+      <version>unspecified</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>org.openpnp</groupId>
+          <artifactId>opencv</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-serialization-json</artifactId>
+      <version>1.9.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-collections-immutable</artifactId>
+      <version>0.3.6</version>
+      <scope>runtime</scope>
+    </dependency>
   </dependencies>
 </project>
