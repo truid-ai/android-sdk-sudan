@@ -184,12 +184,6 @@
       <scope>runtime</scope>
     </dependency>
     <dependency>
-      <groupId>com.google.mediapipe</groupId>
-      <artifactId>tasks-vision</artifactId>
-      <version>0.10.29</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
       <groupId>androidx.camera</groupId>
       <artifactId>camera-camera2</artifactId>
       <version>1.4.2</version>
